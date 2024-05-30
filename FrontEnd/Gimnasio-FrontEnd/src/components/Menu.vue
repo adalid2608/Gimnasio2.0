@@ -21,8 +21,8 @@
         <li>
           <a
           href="#"
-          @click.prevent="updateMenu('home')"
-          :class="highlightSection('home')"
+          @click.prevent="updateMenu('#')"
+          :class="highlightSection('#')"
           >
               <i class="fa fa-home menu__icon" aria-hidden="true"></i>
               Home

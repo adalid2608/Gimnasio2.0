@@ -11,7 +11,7 @@
      <div class="h-full px-3 py-4 overflow-y-auto bg-gray-300 dark:bg-gray-800">
         <ul class="space-y-2 font-medium">
            <li>
-            <RouterLink to="">
+            <RouterLink to="/dashboard">
               <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"  class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true" >
                   <path d="M304 240V16.6c0-9 7-16.6 16-16.6C443.7 0 544 100.3 544 224c0 9-7.6 16-16.6 16H304zM32 272C32 150.7 122.1 50.3 239 34.3c9.2-1.3 17 6.1 17 15.4V288L412.5 444.5c6.7 6.7 6.2 17.7-1.5 23.1C371.8 495.6 323.8 512 272 512C139.5 512 32 404.6 32 272zm526.4 16c9.3 0 16.6 7.8 15.4 17c-7.7 55.9-34.6 105.6-73.9 142.3c-6 5.6-15.4 5.2-21.2-.7L320 288H558.4z"/>
@@ -21,7 +21,7 @@
             </RouterLink>
            </li>
            <li>
-            <RouterLink to="">
+            <RouterLink to="/sucursal">
               <a href="#" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
                <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true"  viewBox="0 0 384 512">
                   <path d="M48 0C21.5 0 0 21.5 0 48V464c0 26.5 21.5 48 48 48h96V432c0-26.5 21.5-48 48-48s48 21.5 48 48v80h96c26.5 0 48-21.5 48-48V48c0-26.5-21.5-48-48-48H48zM64 240c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V240zm112-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V240c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V240zM80 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H80c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16zm80 16c0-8.8 7.2-16 16-16h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H176c-8.8 0-16-7.2-16-16V112zM272 96h32c8.8 0 16 7.2 16 16v32c0 8.8-7.2 16-16 16H272c-8.8 0-16-7.2-16-16V112c0-8.8 7.2-16 16-16z"/>
@@ -42,17 +42,17 @@
               </button>
               <ul id="dropdown-example5" class="hidden py-2 space-y-2">
                     <li>
-                        <RouterLink to="">
+                        <RouterLink to="/dietas">
                            <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Dietas</a>
                         </RouterLink>
                      </li>
                     <li>
-                        <RouterLink to="">
+                        <RouterLink to="/preguntaNutricional">
                            <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Pregunta Nutricional</a>
                         </RouterLink>
                      </li>
                      <li>
-                        <RouterLink to="">
+                        <RouterLink to="/valoracionNutricional">
                            <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Valoración Nutricional</a>
                         </RouterLink>
                      </li>
@@ -70,27 +70,27 @@
               </button>
               <ul id="dropdown-example3" class="hidden py-2 space-y-2">
                      <li>
-                        <RouterLink to="">
+                        <RouterLink to="/ejercicios">
                         <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Ejercicios</a>
                         </RouterLink>
                      </li>
                      <li>
-                        <RouterLink to="">
+                        <RouterLink to="/rutinas">
                            <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Rutinas</a>
                         </RouterLink>
                      </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/programaSaludable">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Programas Saludables</a>
                      </RouterLink>
                      </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/rutinasEjercicios">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Rutinas Ejercicios</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/detalleProgramas">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle Programas</a>
                      </RouterLink>                    
                   </li>
@@ -109,12 +109,12 @@
               </button>
               <ul id="dropdown-example7" class="hidden py-2 space-y-2">
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/equipamiento">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Equipamiento</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/prestamos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Prestamo</a>
                      </RouterLink>
                     </li>
@@ -132,12 +132,12 @@
               </button>
               <ul id="dropdown-example4" class="hidden py-2 space-y-2">
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/membresias">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Membresias</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/miembros">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Miembros</a>
                      </RouterLink>
                     </li>
@@ -160,27 +160,27 @@
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/areas">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Áreas</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/puestos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Puestos</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/empleados">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Empleados</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/instructores">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Instructores</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/horarios">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Horarios</a>
                      </RouterLink>
                     </li>
@@ -198,27 +198,27 @@
               </button>
               <ul id="dropdown-example8" class="hidden py-2 space-y-2">
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/sucursal">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Sucursal</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/instalaciones">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Instalaciones</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/equipamiento">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Equipamiento</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/mantenimiento">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Mantenimiento</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/prestamos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Prestamo</a>
                      </RouterLink>
                     </li>
@@ -237,37 +237,37 @@
               </button>
               <ul id="dropdown-example2" class="hidden py-2 space-y-2">
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="productos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Productos</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="detalleProductos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle de Productos</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/promociones">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Promociones</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/detallePromociones">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalles de Promociones</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/pedidos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Pedidos</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/detallePedidos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Detalle de Pedidos</a>
                      </RouterLink>
                     </li>
                     <li>
-                     <RouterLink to="">
+                     <RouterLink to="/pagos">
                        <a href="#" class="flex items-center w-full p-2 text-gray-900 transition duration-75 rounded-lg pl-11 group hover:bg-gray-100 dark:text-white dark:hover:bg-gray-700">Transacción Pagos</a>
                      </RouterLink>
                     </li>

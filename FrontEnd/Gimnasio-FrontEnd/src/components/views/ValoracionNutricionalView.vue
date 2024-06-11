@@ -1,3 +1,13 @@
 <template>
-    <h1>Hola</h1>
+    <ValoracionNutricional></ValoracionNutricional>
 </template>
+<script>
+    import ValoracionNutricional from '../../components/ValoracionNutricional.vue'
+    
+    export default{
+        components:
+            {
+                ValoracionNutricional
+            }
+    }
+</script>

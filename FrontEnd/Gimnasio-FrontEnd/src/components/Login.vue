@@ -1,13 +1,14 @@
 <template>
-    <Dietas></Dietas>
+    <Usuario></Usuario>
 </template>
+
 <script>
-    import Dietas from '../../components/Dietas.vue'
+    import Usuario from './Usuario.vue'
     
     export default{
         components:
             {
-                Dietas
+                Usuario
             }
     }
 </script>

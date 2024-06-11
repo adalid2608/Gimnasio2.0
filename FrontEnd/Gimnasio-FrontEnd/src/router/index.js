@@ -1,6 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import LoginView from '@/components/LoginView.vue'
-import RegisterView from '@/components/RegisterView.vue'
+import Login from '@/components/Login.vue'
+import Register from '@/components/Register.vue'
 import Menu from '@/components/Menu.vue'
 import DashboardView from '@/components/views/DashboardView.vue'
 import SucursalView from '@/components/views/SucursalView.vue'
@@ -32,20 +32,18 @@ import PagosView from '@/components/views/PagosView.vue'
 import PromocionesView from '@/components/views/PromocionesView.vue'
 import DetalleProductosView from '@/components/views/DetalleProductosView.vue'
 
-
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
       path: '/',
       name: 'login',
-      component: LoginView
+      component: Login
     },
     {
       path: '/signup',
       name: 'signup',
-      component: RegisterView
+      component: Register
     },
     {
       path: '/home',

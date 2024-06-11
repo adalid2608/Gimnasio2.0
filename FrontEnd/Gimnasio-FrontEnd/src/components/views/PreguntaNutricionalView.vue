@@ -1,3 +1,13 @@
 <template>
-    <h1>Hola</h1>
+    <PreguntaNutricional></PreguntaNutricional>
 </template>
+<script>
+    import PreguntaNutricional from '../../components/PreguntaNutricional.vue'
+    
+    export default{
+        components:
+            {
+                PreguntaNutricional
+            }
+    }
+</script>

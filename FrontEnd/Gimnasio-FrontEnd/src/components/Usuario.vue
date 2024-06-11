@@ -1,5 +1,5 @@
 <template>
-<div class="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
+    <div class="min-h-screen bg-gray-100 text-gray-900 flex justify-center">
     <div class="max-w-screen-xl m-0 sm:m-10 bg-white shadow sm:rounded-lg flex justify-center flex-1">
         <div class="lg:w-1/2 xl:w-5/12 p-6 sm:p-12">
             <div class="mt-12 flex flex-col items-center">
@@ -87,12 +87,6 @@
                 </div>
             </div>
         </div>
-        <div class="flex-1 bg-gray-500 text-center hidden lg:flex ">
-            <div class="m-12 xl:m-16 w-10/12 bg-contain bg-center bg-no-repeat "
-                style="background-image: url('https://private-user-images.githubusercontent.com/163441777/323096598-75e27319-c2da-456b-8fc0-9bf3d29f6567.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTcwODA1OTQsIm5iZiI6MTcxNzA4MDI5NCwicGF0aCI6Ii8xNjM0NDE3NzcvMzIzMDk2NTk4LTc1ZTI3MzE5LWMyZGEtNDU2Yi04ZmMwLTliZjNkMjlmNjU2Ny5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwNTMwJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDUzMFQxNDQ0NTRaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT00YTM1ZGY3ODcyM2E0ZGNhMzk0N2M5YjU2OWM0MDQ0ZDlkNDdiODA5MjM1Yzk2MjU5NWI4NjU0MWEzNDMxM2E3JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCZhY3Rvcl9pZD0wJmtleV9pZD0wJnJlcG9faWQ9MCJ9.TqPJgXdHZUZQa11EYFEzoGOgJuUoVcCx4xrrP1CDGjg');"
-                >
-            </div>
-        </div>
     </div>
-</div>
+</div>  
 </template>

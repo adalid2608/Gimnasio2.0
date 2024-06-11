@@ -1,13 +1,14 @@
 <template>
-    <Dietas></Dietas>
+    <Persona></Persona>
 </template>
+
 <script>
-    import Dietas from '../../components/Dietas.vue'
-    
+    import Persona from './Persona.vue'
+
     export default{
         components:
             {
-                Dietas
+                Persona
             }
     }
 </script>
